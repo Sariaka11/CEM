@@ -1,0 +1,102 @@
+/* Conteneur principal de l'inscription */
+.Inscription {
+  background-color: #1e1e1e;
+  padding: 30px;
+  margin-top: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  width: 400px;
+  border: 1px solid white;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Titre principal du formulaire */
+.h1-inscri {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid white; /* Encadrement du titre "Formulaire inscription" */
+  display: inline-block;
+  margin-bottom: 20px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+/* Groupe de champ */
+.groupe-champ {
+  margin-bottom: 15px;
+}
+
+/* Etiquette pour chaque champ (ex: Nom, Prenom, Email, etc.) */
+.etiquette {
+  display: block;
+  text-align: left;
+  color: white;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+/* Style des champs de saisie */
+.champ {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Placeholder des inputs */
+.champ::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Indication visuelle pour les champs validés ou en erreur */
+.champ-erreur {
+  border-color: red;
+}
+
+.champ-valide {
+  border-color: white;
+}
+
+/* Conteneur pour les boutons côte à côte */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+ 
+}
+
+/* Boutons généraux */
+.login-button {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Bouton rouge pour Enregistrer */
+.login-button-red {
+  background-color: red;
+  color: white;
+}
+
+/* Bouton gris pour Connexion */
+.login-button-white {
+  background-color: gray;
+  color: white;
+}
+
+/* Message d'erreur pour les mots de passe */
+.alerte-erreur {
+  color: red;
+  font-size: 12px;
+  display: block;
+  text-align: left;
+  margin-top: 5px;
+}
