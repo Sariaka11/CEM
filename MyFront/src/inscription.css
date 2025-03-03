@@ -17,33 +17,30 @@ body {
   align-items: center;
 }
 
-.login-container {
-  width: 100%;
-  max-width: 400px;
-  padding: 20px;
-}
-
-.login-box {
+.Inscription {
   background-color: var(--white);
   padding: 30px;
   border-radius: 8px;
+  width: 400px;
   border: 1px solid var(--gray);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-.login-title {
+.h1-inscri {
   color: var(--red);
-  font-size: 48px;
+  font-size: 32px;
   font-weight: bold;
-  padding: 10px;
-  border: 2px solid var(--red);
+  padding-top: 80px;
   display: block;
-  margin: 0 auto 30px;
+  margin-bottom: 30px;
   text-align: center;
-  width: fit-content;
 }
 
-.login-label {
+.groupe-champ {
+  margin-bottom: 20px;
+}
+
+.etiquette {
   display: block;
   text-align: left;
   color: var(--dark-gray);
@@ -52,26 +49,39 @@ body {
   font-weight: bold;
 }
 
-.login-input {
+.champ {
   width: 100%;
   padding: 12px;
-  margin-bottom: 20px;
-  border: 1px solid var(--gray);
-  background-color: var(--gray);
+  border: 1px solid var(--dark-gray);
+  background-color: var(--white);
   color: var(--black);
   border-radius: 4px;
   font-size: 16px;
   box-sizing: border-box;
 }
 
-.login-input::placeholder {
-  color: var(--dark-gray);
+.champ::placeholder {
+  color: var(--gray);
+}
+
+.champ-erreur {
+  border-color: var(--red);
+}
+
+.champ-valide {
+  border-color: var(--gray);
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 10px;
 }
 
 .login-button {
-  width: 100%;
+  flex: 1;
   padding: 12px;
-  margin-top: 10px;
   border: none;
   font-size: 16px;
   cursor: pointer;
@@ -91,4 +101,12 @@ body {
 
 .login-button:hover {
   opacity: 0.9;
+}
+
+.alerte-erreur {
+  color: var(--red);
+  font-size: 14px;
+  display: block;
+  text-align: left;
+  margin-top: 5px;
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sariaka\\MyApi\\MyApi.csproj": {}
+    "C:\\Users\\Sariaka\\Myproject\\MyApi\\MyApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sariaka\\MyApi\\MyApi.csproj": {
+    "C:\\Users\\Sariaka\\Myproject\\MyApi\\MyApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sariaka\\MyApi\\MyApi.csproj",
+        "projectUniqueName": "C:\\Users\\Sariaka\\Myproject\\MyApi\\MyApi.csproj",
         "projectName": "MyApi",
-        "projectPath": "C:\\Users\\Sariaka\\MyApi\\MyApi.csproj",
+        "projectPath": "C:\\Users\\Sariaka\\Myproject\\MyApi\\MyApi.csproj",
         "packagesPath": "C:\\Users\\Sariaka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sariaka\\MyApi\\obj\\",
+        "outputPath": "C:\\Users\\Sariaka\\Myproject\\MyApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
