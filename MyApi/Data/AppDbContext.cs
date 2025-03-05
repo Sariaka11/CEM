@@ -16,5 +16,24 @@ namespace MyApi.Data
                 optionsBuilder.UseOracle("User Id=system;Password=2002;Data Source=localhost:1521/FREE");
             }
         }
+         public DbSet<Fourniture> Fournitures { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Fourniture>()
+                .Property(f => f.PrixU)
+                .HasColumnType("DECIMAL(18,2)");
+
+            modelBuilder.Entity<Fourniture>()
+                .Property(f => f.PrixTtl)
+                .HasColumnType("DECIMAL(18,2)");
+
+            modelBuilder.Entity<Fourniture>()
+                .Property(f => f.Montant)
+                .HasColumnType("DECIMAL(18,2)");
+        }
     }
-}
+    }
+
